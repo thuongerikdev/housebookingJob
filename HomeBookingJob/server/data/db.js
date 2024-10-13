@@ -36,13 +36,6 @@ const mongoDataMethod  = {
     getIconInMainScreen : async showIn => await Icon.find ({showIn : showIn}),
 
     
-
-   
-
-
-
-    
-   
 }
 
 

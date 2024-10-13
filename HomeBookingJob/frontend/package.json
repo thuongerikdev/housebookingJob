@@ -1,12 +1,22 @@
 {
   "dependencies": {
+    "@clerk/clerk-expo": "^2.2.24",
+    "@clerk/clerk-js": "^5.26.4",
     "@react-native-async-storage/async-storage": "^1.23.1",
+    "@react-navigation/bottom-tabs": "^6.6.1",
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/stack": "^6.4.1",
     "@types/react": "^18.3.2",
     "@types/react-native": "^0.73.0",
+    "expo": "^51.0.37",
+    "expo-status-bar": "^1.12.1",
+    "expo-web-browser": "~13.0.3",
     "jwt-decode": "^4.0.0",
     "react": "^18.2.0",
-    "react-native": "^0.74.1",
+    "react-dom": "^18.2.0",
+    "react-native": "^0.75.4",
     "react-native-calendars": "^1.1305.0",
+    "react-native-safe-area-context": "^4.11.0",
     "typescript": "^5.4.5"
   }
 }

@@ -30,9 +30,7 @@ const SignIn = () => {
             }) {
               token
              
-           
-             
-              
+          
             }
           }
         `;
@@ -54,9 +52,7 @@ const SignIn = () => {
     
           const json = await res.json();
           console.log(json.data.login);
-    
-          
-          
+           
           if (!json.errors) {
             // Phản hồi thành công
             console.log('Success:', json.data.login);

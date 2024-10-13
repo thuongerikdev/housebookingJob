@@ -8,7 +8,7 @@ const mongoDataMethods = require ('./data/db');
 // Connect to DB
 const connectDB = async () => {
   try {
-    await mongoose.connect('mongodb://localhost:27017/Home-service');
+    await mongoose.connect('mongodb://127.0.0.1:27017/HouseApp');
     console.log('Connected to database home-service ;)');
   } catch (error) {
     console.log(error.message);
